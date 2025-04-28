@@ -11,8 +11,9 @@ function fetch(){
                 country_name.innerHTML = `<img class="background" src="../img/background.png">
                 <p class="country-name">${data["location"]["name"]}, ${data["location"]["country"]}
                 <span class="temp-up">${temp1}&deg
-                </span></p>
-                <img class="solecito-derecha-up" src="../imgcloud_and_sun_1.png">`
+                </span><span class="clima-text">${data["current"]["condition"]["text"]}</span></p>
+                <img class="solecito-derecha-up" src="../img/cloud_and_sun_1.png">
+                `
             }
         }    
         xhr.send();
