@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "letra1";
+    src: url(../font/ProductSans/OpenSans-SemiBold.ttf);
+}
+body {
+    margin: 0;
+    width: auto;
+    height: auto;
+    background-color: #F6EDFF;
+}
+#container-up{
+    width: 50vw;
+    height: 140vh;
+}
+.background{
+    position: absolute;
+    margin-top: -15vh;
+    width: 100%;
+    height: 60vh;
+    border-radius: 4vw;
+}
+.country-name{
+    padding-top: 3vh;
+    padding-left: 6vw;
+    color: white;
+    font-family: "letra1";
+    font-size: 1.2rem;
+    position: absolute;
+}
+.temp-up{
+    margin-top: 15vh;
+    position: absolute;
+    color: white;
+    font-family: "letra1";
+    font-size: 5rem;
+    margin-left: -90%;
+}
+.solecito-derecha-up{
+    position: absolute;
+}
